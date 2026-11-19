@@ -170,3 +170,6 @@ pre.template{background:#141517;border:1px solid var(--line);border-radius:14px;
  .inline-cta{grid-template-columns:1fr}
  .step .phone{max-width:200px}
 }
+.btn{display:inline-block;background:var(--lime);color:var(--lime-ink);font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none}
+.btn:hover{color:var(--lime-ink);filter:brightness(1.05)}
+#android .cta-row{justify-content:center}
