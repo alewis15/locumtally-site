@@ -173,3 +173,11 @@ pre.template{background:#141517;border:1px solid var(--line);border-radius:14px;
 .btn{display:inline-block;background:var(--lime);color:var(--lime-ink);font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none}
 .btn:hover{color:var(--lime-ink);filter:brightness(1.05)}
 #android .cta-row{justify-content:center}
+.android-cta{display:inline-flex;align-items:center;gap:10px;height:54px;box-sizing:border-box;padding:0 16px;border:1px solid #a6a6a6;border-radius:10px;background:#000;color:#fff;text-decoration:none;line-height:1.1}
+.android-cta svg{color:#3ddc84;flex:none}
+.android-cta span{display:flex;flex-direction:column;font-weight:600;font-size:17px}
+.android-cta small{font-size:11px;font-weight:500;opacity:.85}
+.android-cta:hover{color:#fff;border-color:#fff}
+@media (max-width:600px){.android-cta{height:50px}}
+.hero .cta-note{display:block;margin:0}
+@media (max-width:600px){.hero .cta-row{gap:10px;flex-wrap:nowrap}.hero .badge img{height:44px}.hero .android-cta{height:44px;padding:0 10px;gap:7px}.hero .android-cta svg{width:20px;height:20px}.hero .android-cta span{font-size:14px}.hero .android-cta small{font-size:10px}}
