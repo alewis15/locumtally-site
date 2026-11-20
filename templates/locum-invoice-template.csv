@@ -1,0 +1,29 @@
+Invoice no.,[INV-0001]
+Invoice date,[2026-11-09]
+Due date,[2026-12-09]
+From,[Your name or business name]
+Bill to,[Client / facility legal name]
+
+Date,Description,Hours / qty,Rate,Amount
+,"[Mon 11/2] Regular hours, [7:00 AM–5:30 PM], [30 min] unpaid break",,,"=IF(OR(C8="""",D8=""""),"""",ROUND(C8*D8,2))"
+,"[Tue 11/3] Regular hours, [7:00 AM–7:15 PM], [15 min] unpaid break",,,"=IF(OR(C9="""",D9=""""),"""",ROUND(C9*D9,2))"
+,[Tue 11/3] Premium hours (after [10] h),,,"=IF(OR(C10="""",D10=""""),"""",ROUND(C10*D10,2))"
+,[Wed 11/4] Call stipend ([weekday]),,,"=IF(OR(C11="""",D11=""""),"""",ROUND(C11*D11,2))"
+,"[Wed 11/4] Called in, [11:40 PM–1:55 AM]",,,"=IF(OR(C12="""",D12=""""),"""",ROUND(C12*D12,2))"
+,,,,"=IF(OR(C13="""",D13=""""),"""",ROUND(C13*D13,2))"
+,,,,"=IF(OR(C14="""",D14=""""),"""",ROUND(C14*D14,2))"
+,,,,"=IF(OR(C15="""",D15=""""),"""",ROUND(C15*D15,2))"
+,,,,"=IF(OR(C16="""",D16=""""),"""",ROUND(C16*D16,2))"
+,,,,"=IF(OR(C17="""",D17=""""),"""",ROUND(C17*D17,2))"
+,,,Services subtotal,=SUM(E8:E17)
+
+Date,Expense,,,Amount
+,[Parking / mileage / lodging] (receipt attached),,,
+,,,,
+,,,,
+,,,,
+,,,Expenses subtotal,=SUM(E21:E24)
+
+,,,TOTAL DUE,=E18+E25
+
+Free template from Locum Tally · locumtally.app

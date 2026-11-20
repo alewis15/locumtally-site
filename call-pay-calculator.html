@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Call Pay Calculator for Locum and 1099 Shifts | Locum Tally</title>
+<meta name="description" content="Free call pay calculator for locum and 1099 clinicians: hourly and premium rates, guaranteed hours, call stipends, called-in time, weekend and holiday rates and rounding.">
+<link rel="canonical" href="https://locumtally.app/call-pay-calculator.html">
+<meta name="apple-itunes-app" content="app-id=6818014743">
+<meta name="theme-color" content="#1F2023">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site.css?v=4">
+<link rel="stylesheet" href="tools.css?v=1">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Locum Tally">
+<meta property="og:title" content="Call Pay Calculator for Locum and 1099 Shifts | Locum Tally">
+<meta property="og:description" content="Free call pay calculator for locum and 1099 clinicians: hourly and premium rates, guaranteed hours, call stipends, called-in time, weekend and holiday rates and rounding.">
+<meta property="og:url" content="https://locumtally.app/call-pay-calculator.html">
+<meta property="og:image" content="https://locumtally.app/img/og-locumtally.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Locum Tally: the time clock and invoice app for 1099 locum providers">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Call Pay Calculator for Locum and 1099 Shifts | Locum Tally">
+<meta name="twitter:description" content="Free call pay calculator for locum and 1099 clinicians: hourly and premium rates, guaranteed hours, call stipends, called-in time, weekend and holiday rates and rounding.">
+<meta name="twitter:image" content="https://locumtally.app/img/og-locumtally.png">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebApplication",
+   "@id": "https://locumtally.app/call-pay-calculator.html#tool",
+   "name": "Call Pay Calculator",
+   "url": "https://locumtally.app/call-pay-calculator.html",
+   "description": "Calculates locum and 1099 shift and call pay with premium hours, guaranteed hours, call stipends, hourly call, called-in time, weekend and holiday rates and billing increments.",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Any (runs in your web browser)",
+   "browserRequirements": "Requires JavaScript",
+   "isAccessibleForFree": true,
+   "keywords": "call pay calculator, locum call pay, crna call pay, shift pay calculator, premium hours, guaranteed hours",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Locum Tally",
+    "url": "https://locumtally.app/"
+   },
+   "dateModified": "2026-11-19"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How is call pay usually calculated?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Most contracts pay a flat stipend for each call period, an hourly rate for the time you’re on call, or both. Time you’re called in to work is usually paid at your regular rate or a separate called-in rate. Enter your contract’s method under Call pay."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What happens when a shift is exactly at the premium threshold?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No premium hours. With a 10-hour threshold, exactly 10 hours is all regular time. Premium starts with the first billed minute past 10 hours."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do guaranteed hours work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If your billed time is below the guarantee, the shift is topped up to the guarantee at the base rate for that day. A 6-hour shift with an 8-hour guarantee pays 8 hours."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does it handle overnight shifts and call?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. If the end time is before the start time, the shift or call ends the next day. Call can run up to 72 hours, using the Call ends option."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is my information saved or sent anywhere?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nothing leaves your browser. If you turn on saving, your rules and entries are kept in this browser’s local storage only."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does Locum Tally use the same rules?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. This calculator follows the pay rules in the Locum Tally iPhone app: per-shift premium hours, guarantees, weekend and holiday rates, call stipends by day, hourly call, called-in time and rounding. The app also clocks the shifts and builds the invoice."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://locumtally.app/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Call pay calculator",
+     "item": "https://locumtally.app/call-pay-calculator.html"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html"><img src="apple-touch-icon.png" alt="" width="30" height="30">LOCUM <span>TALLY</span></a>
+<nav class="site-nav" aria-label="Main"><a class="opt" href="index.html#features">Features</a><a class="opt" href="index.html#pricing">Pricing</a><a class="opt" href="index.html#tools">Free tools</a><a class="opt" href="index.html#guides">Guides</a><a class="" href="support.html">Support</a><a class="nav-cta" href="https://apps.apple.com/app/apple-store/id6818014743?pt=129455149&ct=tool-call-pay-nav&mt=8">Get the app</a></nav>
+</div></header>
+<main id="main" class="tool-page"><div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › <a href="index.html#tools">Free tools</a> › <span aria-current="page">Call pay calculator</span></nav>
+<div class="intro"><h1>Call pay and shift pay calculator</h1>
+<p class="lead">Work out what a shift, a call night or a whole pay period is worth under your contract: premium hours, guarantees, call stipends, called-in time, weekend and holiday rates, and rounding.</p>
+<p class="privacy-pill">Free · No sign-up · Nothing you type leaves your browser</p></div>
+<form id="cp-form" class="tool" novalidate aria-label="Call pay calculator">
+<fieldset><legend>Facility pay rules</legend><div class="fgrid">
+<div class="field"><label for="r-rate">Hourly rate ($) <span aria-hidden="true" class="lime">*</span></label><input id="r-rate" type="text" inputmode="decimal" value="" placeholder="" aria-required="true"><span class="ferr" id="r-rate-err"></span></div><div class="field"><label for="r-premAfter">Premium after (hours in a shift)</label><input id="r-premAfter" type="text" inputmode="decimal" value="" placeholder="" aria-describedby="r-premAfter-hint"><small id="r-premAfter-hint">Blank = no premium.</small><span class="ferr" id="r-premAfter-err"></span></div><div class="field"><label for="r-premRate">Premium rate ($/hr)</label><input id="r-premRate" type="text" inputmode="decimal" value="" placeholder=""><span class="ferr" id="r-premRate-err"></span></div><div class="field"><label for="r-guarantee">Guaranteed hours per shift</label><input id="r-guarantee" type="text" inputmode="decimal" value="" placeholder="" aria-describedby="r-guarantee-hint"><small id="r-guarantee-hint">Short shifts are topped up to this.</small><span class="ferr" id="r-guarantee-err"></span></div><div class="field"><label for="r-inc">Billing increment</label><select id="r-inc"><option value="1">Actual minutes</option><option value="6">6 minutes</option><option value="15">15 minutes</option><option value="30">30 minutes</option></select></div><div class="field"><label for="r-mode">Rounding</label><select id="r-mode"><option value="up">Round up</option><option value="nearest">Round to nearest</option></select></div><div class="field"><label for="r-weekendRate">Weekend rate ($/hr)</label><input id="r-weekendRate" type="text" inputmode="decimal" value="" placeholder="" aria-describedby="r-weekendRate-hint"><small id="r-weekendRate-hint">Blank = hourly rate.</small><span class="ferr" id="r-weekendRate-err"></span></div><div class="field"><label for="r-holidayRate">Holiday rate ($/hr)</label><input id="r-holidayRate" type="text" inputmode="decimal" value="" placeholder="" aria-describedby="r-holidayRate-hint"><small id="r-holidayRate-hint">Blank = hourly rate.</small><span class="ferr" id="r-holidayRate-err"></span></div></div>
+<details class="more"><summary>Which days count as holidays</summary><div class="hol-grid"><label class="check"><input type="checkbox" name="hol" value="newYearsDay" checked> New Year’s Day</label><label class="check"><input type="checkbox" name="hol" value="mlkDay"> Martin Luther King Jr. Day</label><label class="check"><input type="checkbox" name="hol" value="presidentsDay"> Presidents Day</label><label class="check"><input type="checkbox" name="hol" value="memorialDay" checked> Memorial Day</label><label class="check"><input type="checkbox" name="hol" value="juneteenth"> Juneteenth</label><label class="check"><input type="checkbox" name="hol" value="independenceDay" checked> Independence Day</label><label class="check"><input type="checkbox" name="hol" value="laborDay" checked> Labor Day</label><label class="check"><input type="checkbox" name="hol" value="columbusDay"> Columbus Day</label><label class="check"><input type="checkbox" name="hol" value="veteransDay"> Veterans Day</label><label class="check"><input type="checkbox" name="hol" value="thanksgiving" checked> Thanksgiving</label><label class="check"><input type="checkbox" name="hol" value="dayAfterThanksgiving"> Day after Thanksgiving</label><label class="check"><input type="checkbox" name="hol" value="christmasEve"> Christmas Eve</label><label class="check"><input type="checkbox" name="hol" value="christmas" checked> Christmas Day</label><label class="check"><input type="checkbox" name="hol" value="newYearsEve"> New Year’s Eve</label></div></details>
+</fieldset>
+<fieldset><legend>Call pay</legend><div class="fgrid">
+<div class="field"><label for="r-callMode">How call is paid</label><select id="r-callMode"><option value="none">No call</option><option value="stipend">Stipend per call</option><option value="hourly">Hourly call rate</option><option value="both">Stipend + hourly</option></select></div>
+<div class="field" id="call-stipend"><label for="r-stipend">Call stipend ($ per call)</label><input id="r-stipend" type="text" inputmode="decimal" value="" placeholder=""><span class="ferr" id="r-stipend-err"></span><label class="check"><input type="checkbox" id="r-byDay"> Different stipend on weekends and holidays</label></div>
+<div class="fgrid" id="by-day" style="grid-column:1/-1"><div class="field"><label for="r-satStipend">Saturday stipend ($)</label><input id="r-satStipend" type="text" inputmode="decimal" value="" placeholder=""><span class="ferr" id="r-satStipend-err"></span></div><div class="field"><label for="r-sunStipend">Sunday stipend ($)</label><input id="r-sunStipend" type="text" inputmode="decimal" value="" placeholder=""><span class="ferr" id="r-sunStipend-err"></span></div><div class="field"><label for="r-holStipend">Holiday stipend ($)</label><input id="r-holStipend" type="text" inputmode="decimal" value="" placeholder=""><span class="ferr" id="r-holStipend-err"></span></div></div>
+<div id="call-hourly" class="field"><label for="r-callRate">Call hourly rate ($/hr)</label><input id="r-callRate" type="text" inputmode="decimal" value="" placeholder="" aria-describedby="r-callRate-hint"><small id="r-callRate-hint">Paid for call time when you’re not called in.</small><span class="ferr" id="r-callRate-err"></span></div>
+<div id="call-calledin" class="field"><label for="r-calledInRate">Called-in rate ($/hr)</label><input id="r-calledInRate" type="text" inputmode="decimal" value="" placeholder="" aria-describedby="r-calledInRate-hint"><small id="r-calledInRate-hint">Blank = hourly rate.</small><span class="ferr" id="r-calledInRate-err"></span></div>
+</div></fieldset>
+<fieldset><legend>Shifts and call</legend>
+<p class="hint">One row per shift or call block. If the end time is earlier than the start, it ends the next day. Weekend and holiday rates follow the day a shift starts.</p>
+<div class="pay-rows"><div class="rhead" aria-hidden="true"><span>Type</span><span>Date</span><span>Start</span><span>End</span><span>Break (min) / called in</span><span style="text-align:right">Pay</span><span></span></div>
+<div id="rows" class="rows"></div></div>
+<div class="btns"><button type="button" class="tbtn" id="add-shift">+ Add shift</button><button type="button" class="tbtn" id="add-call">+ Add call</button><button type="button" class="tbtn" id="cp-sample">Load sample week</button><button type="button" class="tbtn ghost" id="cp-clear">Remove all rows</button></div>
+<label class="check"><input type="checkbox" id="r-save"> Save my rules and entries in this browser</label>
+<p class="status" id="cp-status" role="status" aria-live="polite"></p>
+</fieldset>
+<section class="result" id="result" aria-labelledby="res-h">
+<p class="eyebrow" id="res-h">Estimated pay for these entries</p>
+<p class="big" id="total" aria-live="polite" aria-atomic="true">—</p>
+<p class="muted small" id="total-note"></p>
+<dl><div><dt>Shift hours paid (incl. guarantee)</dt><dd id="s-shift">0h 00m</dd></div><div><dt>Call hours</dt><dd id="s-call">0h 00m</dd></div><div><dt>Called-in hours</dt><dd id="s-calledin">0h 00m</dd></div><div><dt>Call stipends</dt><dd id="s-stipends">$0.00</dd></div></dl>
+<h2 class="t" style="margin-top:18px">Pay lines</h2>
+<div class="table-wrap"><table><thead><tr><th>Date</th><th>Line</th><th class="num">Hours</th><th class="num">Rate</th><th class="num">Amount</th></tr></thead><tbody id="lines-body"></tbody></table></div>
+<p class="small muted" style="margin:0">Copy these lines into the <a href="locum-invoice-generator.html">free invoice generator</a>.</p>
+</section>
+</form>
+<noscript><p class="status bad">This calculator needs JavaScript.</p></noscript>
+<aside class="upsell" aria-label="Get Locum Tally"><div><h2>Locum Tally does this automatically</h2><p>The iPhone app clocks your shifts, applies each facility’s rates, call pay and rounding, and builds the PDF invoice for you. Free to start.</p></div><div><a class="badge" href="https://apps.apple.com/app/apple-store/id6818014743?pt=129455149&ct=tool-call-pay-top&mt=8" aria-label="Download Locum Tally on the App Store"><img src="img/app-store-badge.svg" alt="Download on the App Store" width="162" height="54"></a></div></aside>
+<div class="content narrow">
+<h2>How the calculator works out your pay</h2>
+<p>The calculator uses the same pay rules as the Locum Tally iPhone app, in the same order. For each <strong>shift</strong>:</p>
+<ol>
+<li><strong>Worked time</strong> is end minus start, minus the unpaid break. A shift that ends earlier than it starts ends the next day, so 7:00 PM to 7:00 AM is 12 hours.</li>
+<li><strong>Rounding</strong> is applied once to the worked time, at your billing increment (actual minutes, 6, 15 or 30), rounding up or to the nearest. With round to nearest, a tie goes up and a short shift never rounds to zero.</li>
+<li><strong>Premium hours.</strong> Billed time past the premium threshold is paid at the premium rate. The threshold is per shift. At exactly the threshold there are no premium hours.</li>
+<li><strong>Guaranteed hours.</strong> If billed time is under the guarantee, the shift is topped up to it at the shift’s base rate.</li>
+<li><strong>Weekend and holiday rates</strong> replace the hourly rate for the base hours and the top-up, based on the day the shift starts. A holiday beats a weekend. Premium hours stay at the premium rate.</li>
+</ol>
+<p>For each <strong>call block</strong>, the stipend is paid once, by the day the call starts (holiday, then Saturday or Sunday, then Mon–Fri). Hourly call pays the call window minus the time you were called in. Called-in time is paid at the called-in rate, or your hourly rate if that’s blank. Rounding applies to the call hours and the called-in hours separately. Guarantees, premium hours and weekend rates don’t apply to call. If you take call several days in a row, add one call row per day so each day gets its stipend.</p>
+<p>Every line is minutes × rate ÷ 60, rounded to the nearest cent, and the total is the sum of the lines. That way the total always matches the lines on your invoice.</p>
+
+<h2>How rounding changes billed time</h2>
+<p>The same shift can bill differently depending on the increment and rounding in your contract:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Worked</th><th class="num">6 min up</th><th class="num">6 min nearest</th><th class="num">15 min up</th><th class="num">15 min nearest</th><th class="num">30 min up</th><th class="num">30 min nearest</th></tr></thead>
+<tbody><tr><td>7h 47m</td><td class="num">7h 48m</td><td class="num">7h 48m</td><td class="num">8h 00m</td><td class="num">7h 45m</td><td class="num">8h 00m</td><td class="num">8h 00m</td></tr><tr><td>8h 32m</td><td class="num">8h 36m</td><td class="num">8h 30m</td><td class="num">8h 45m</td><td class="num">8h 30m</td><td class="num">9h 00m</td><td class="num">8h 30m</td></tr></tbody></table></div>
+
+<h2>Worked example: the sample week</h2>
+<p>Load the sample week to see these rules in action. The rate is $175 an hour, $250 after 10 hours, an 8-hour guarantee, 15-minute increments rounded up, $200 on weekends, $262.50 on holidays, and a $500 call stipend ($600 weekends, $750 holidays):</p>
+<ul>
+<li><strong>Mon:</strong> 7:00–5:30 with a 30-minute break is exactly 10 hours, so no premium: <strong>$1,750.00</strong>.</li>
+<li><strong>Tue:</strong> 7:00–7:10 PM with a 15-minute break is 11h 55m, rounded up to 12 hours: 10 hours at $175 plus 2 premium hours at $250 = <strong>$2,250.00</strong>.</li>
+<li><strong>Tue night call</strong> with 2h 15m called in: $500 stipend plus 2.25 hours at $175 = <strong>$893.75</strong>.</li>
+<li><strong>Thanksgiving:</strong> a 6-hour shift is topped up to the 8-hour guarantee at the holiday rate: <strong>$2,100.00</strong>.</li>
+<li><strong>Sat:</strong> 8 hours at the weekend rate: <strong>$1,600.00</strong>.</li>
+</ul>
+<p>Week total: <strong>$8,593.75</strong>.</p>
+
+<h2>Check your contract for these terms</h2>
+<p>Call and premium terms vary widely between facilities and agencies. Before you rely on a number, check: whether the premium threshold is per shift or per week (this calculator, like the app, uses per shift); whether the guarantee applies to every scheduled shift or only when you’re sent home early; how called-in time is rounded; and which holidays count. When you know the rules, enter them once in the app and every shift is billed the same way.</p>
+<h2 id="faq">Frequently asked questions</h2>
+<div class="faq"><details><summary>How is call pay usually calculated?</summary><div><p>Most contracts pay a flat stipend for each call period, an hourly rate for the time you’re on call, or both. Time you’re called in to work is usually paid at your regular rate or a separate called-in rate. Enter your contract’s method under Call pay.</p></div></details><details><summary>What happens when a shift is exactly at the premium threshold?</summary><div><p>No premium hours. With a 10-hour threshold, exactly 10 hours is all regular time. Premium starts with the first billed minute past 10 hours.</p></div></details><details><summary>How do guaranteed hours work?</summary><div><p>If your billed time is below the guarantee, the shift is topped up to the guarantee at the base rate for that day. A 6-hour shift with an 8-hour guarantee pays 8 hours.</p></div></details><details><summary>Does it handle overnight shifts and call?</summary><div><p>Yes. If the end time is before the start time, the shift or call ends the next day. Call can run up to 72 hours, using the Call ends option.</p></div></details><details><summary>Is my information saved or sent anywhere?</summary><div><p>Nothing leaves your browser. If you turn on saving, your rules and entries are kept in this browser’s local storage only.</p></div></details><details><summary>Does Locum Tally use the same rules?</summary><div><p>Yes. This calculator follows the pay rules in the Locum Tally iPhone app: per-shift premium hours, guarantees, weekend and holiday rates, call stipends by day, hourly call, called-in time and rounding. The app also clocks the shifts and builds the invoice.</p></div></details></div>
+<h2>More free tools</h2>
+<div class="related"><a href="locum-invoice-generator.html">Locum invoice generator<span>Fill in your shifts, download a PDF invoice</span></a><a href="1099-invoice-template.html">1099 invoice template<span>Free Word, Excel, Google Sheets and PDF downloads</span></a><a href="1099-crna-rate-calculator.html">1099 CRNA rate calculator<span>W-2 salary vs. 1099 hourly, with 2026 tax figures</span></a></div>
+<h2>Guides</h2>
+<div class="related"><a href="locum-invoice-template.html">Locum invoice template<span>Free copy-and-paste template, with a worked example</span></a><a href="1099-crna-time-tracking.html">1099 CRNA time tracking<span>Hours, call, premium time and rounding, explained</span></a><a href="how-to-invoice-as-a-1099-contractor.html">How to invoice as a 1099 contractor<span>Invoice vs. W-9 vs. 1099-NEC, step by step</span></a></div>
+<aside class="inline-cta" aria-label="Get Locum Tally"><div><h3>Stop rebuilding this every week</h3>
+<p>Locum Tally, built by a working anesthesia provider, turns clocked shifts into invoices in a few taps. No account, no tracking.</p></div>
+<div><a class="badge" href="https://apps.apple.com/app/apple-store/id6818014743?pt=129455149&ct=tool-call-pay-end&mt=8" aria-label="Download Locum Tally on the App Store"><img src="img/app-store-badge.svg" alt="Download on the App Store" width="162" height="54"></a></div></aside>
+<p class="disclaimer">This tool and guide are general information for US-based independent contractors, current as of November 19, 2026. Results are estimates, not tax, legal or accounting advice. Your contract, your facility’s billing office and a qualified tax professional are the final word. Never enter patient information.</p>
+</div>
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<div class="about"><a class="brand" href="index.html"><img src="apple-touch-icon.png" alt="" width="30" height="30">LOCUM <span>TALLY</span></a>
+<p style="margin-top:12px">iPhone time clock and invoices for 1099 locum providers and independent contractors.</p>
+<p>Locum Tally is a record-keeping tool. It isn't tax, legal or accounting advice. Never enter patient information.</p>
+<p>© 2026 Locum Tally · <a href="support.html">Contact support</a></p></div>
+<div><h2>Free tools</h2><ul><li><a href="locum-invoice-generator.html">Locum invoice generator</a></li><li><a href="1099-invoice-template.html">1099 invoice template</a></li><li><a href="1099-crna-rate-calculator.html">1099 CRNA rate calculator</a></li><li><a href="call-pay-calculator.html">Call pay calculator</a></li></ul></div>
+<div><h2>Guides</h2><ul><li><a href="locum-invoice-template.html">Locum invoice template</a></li><li><a href="1099-crna-time-tracking.html">1099 CRNA time tracking</a></li><li><a href="how-to-invoice-as-a-1099-contractor.html">How to invoice as a 1099 contractor</a></li></ul></div>
+<div><h2>App</h2><ul><li><a href="https://apps.apple.com/app/apple-store/id6818014743?pt=129455149&ct=footer&mt=8">App Store</a></li><li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li></ul></div>
+</div></footer>
+<script src="js/lt-math.js?v=1" defer></script><script src="js/call-pay-calculator.js?v=1" defer></script>
+</body>
+</html>

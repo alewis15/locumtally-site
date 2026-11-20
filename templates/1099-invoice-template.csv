@@ -1,0 +1,29 @@
+Invoice no.,[INV-0001]
+Invoice date,[2026-11-09]
+Due date,[2026-12-09]
+From,[Your name or business name]
+Bill to,[Client / facility legal name]
+
+Date,Description,Hours / qty,Rate,Amount
+,"[Services, 8:00 AM–4:30 PM]",,,"=IF(OR(C8="""",D8=""""),"""",ROUND(C8*D8,2))"
+,"[Services, 9:00 AM–1:15 PM]",,,"=IF(OR(C9="""",D9=""""),"""",ROUND(C9*D9,2))"
+,[Flat fee / project],,,"=IF(OR(C10="""",D10=""""),"""",ROUND(C10*D10,2))"
+,,,,"=IF(OR(C11="""",D11=""""),"""",ROUND(C11*D11,2))"
+,,,,"=IF(OR(C12="""",D12=""""),"""",ROUND(C12*D12,2))"
+,,,,"=IF(OR(C13="""",D13=""""),"""",ROUND(C13*D13,2))"
+,,,,"=IF(OR(C14="""",D14=""""),"""",ROUND(C14*D14,2))"
+,,,,"=IF(OR(C15="""",D15=""""),"""",ROUND(C15*D15,2))"
+,,,,"=IF(OR(C16="""",D16=""""),"""",ROUND(C16*D16,2))"
+,,,,"=IF(OR(C17="""",D17=""""),"""",ROUND(C17*D17,2))"
+,,,Services subtotal,=SUM(E8:E17)
+
+Date,Expense,,,Amount
+,[Reimbursable expense] (receipt attached),,,
+,,,,
+,,,,
+,,,,
+,,,Expenses subtotal,=SUM(E21:E24)
+
+,,,TOTAL DUE,=E18+E25
+
+Free template from Locum Tally · locumtally.app
